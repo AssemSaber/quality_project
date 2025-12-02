@@ -19,8 +19,8 @@ import java.time.Duration;
 // to run all test according to priority
  // >> mvn test
 // to run specific test
-//>> mvn -Dtest=ExampleTest#name test
-
+//>> mvn -Dtest=ClassName#name test
+//>> mvn -Dtest=ExampleTest#login_InValidPassword test
 public class ExampleTest {
     WebDriver driver;
     @BeforeMethod
